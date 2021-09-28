@@ -1,0 +1,35 @@
+<div class="menuHorizontal" id="menuHor" #opcao (mudanca)="0">
+    <h1>{{getString(1)}}</h1>
+    <div class="galeria"
+   
+    >
+      <button 
+      (click)="getAlerta('Deu certo')" 
+      class="btn button-primary">
+      {{ labelBtn[0] }}
+    </button>
+      <img class="label" 
+      [src]='getImg(0)'/>
+    </div>
+    
+    <div class="novidades"
+   >    
+    <button (click)="setTela()" class="btn button-primary" >{{ labelBtn[1] }}</button>
+      <img class="label" [src]='getImg(1)'/>
+    </div>
+    
+    <div class="dicas"
+    >
+      <button class=" btn button-primary">{{ labelBtn[2] }}</button>
+      <img class="label" [src]='getImg(2)'/>
+    </div>
+
+    <div class="cadastro"
+    >
+      <button class=" btn button-primary">{{ labelBtn[3] }}</button>
+      <img class="label" [src]='getImg(3)'/>
+    </div>
+   
+   
+  </div>
+  

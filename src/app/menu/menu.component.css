@@ -1,0 +1,20 @@
+.menuHorizontal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: column dense;
+    grid-template-areas:
+      "galeria novidades dicas cadastro";
+  }
+  
+  .galeria { grid-area: galeria;
+}
+  
+  .novidades { grid-area: novidades; }
+  
+  .dicas { grid-area: dicas; }
+  
+  .cadastro { grid-area: cadastro; }
+  
