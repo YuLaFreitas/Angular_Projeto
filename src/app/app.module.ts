@@ -24,11 +24,13 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FaceModule,
-    FormsModule
-    
+    FormsModule    
   ],
   providers: [
-    MenuService
+    MenuService,
+    CadastroComponent,
+    CalculadorComponent
+    
   ],
   bootstrap: [AppComponent]
 })

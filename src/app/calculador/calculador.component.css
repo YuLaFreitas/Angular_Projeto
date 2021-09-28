@@ -1,0 +1,36 @@
+.tabela {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "vUm vDois vTres"
+      "vQuatro vCinco vSeis"
+      "vSete vOito vNove"
+      "vDeis telas .";
+  }
+  
+  .vUm { grid-area: vUm; }
+  
+  .vDois { grid-area: vDois; }
+  
+  .vTres { grid-area: vTres; }
+  
+  .vQuatro { grid-area: vQuatro; }
+  
+  .vCinco { grid-area: vCinco; }
+  
+  .vSeis { grid-area: vSeis; }
+  
+  .vSete { grid-area: vSete; }
+  
+  .vOito { grid-area: vOito; }
+  
+  .vNove { grid-area: vNove; }
+  
+  .vDeis { grid-area: vDeis; }
+  
+  .telas { grid-area: telas; }
+  
